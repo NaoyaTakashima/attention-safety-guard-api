@@ -2,6 +2,8 @@
 
 **gpt-oss-safeguard with Attention Analysis** - RunPod Serverless API
 
+![Demo](demo.gif)
+
 ---
 
 ## 🚀 Public API (Hackathon Demo)
