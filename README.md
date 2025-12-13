@@ -2,6 +2,34 @@
 
 **gpt-oss-safeguard with Attention Analysis** - RunPod Serverless API
 
+---
+
+## 🚀 Public API (Hackathon Demo)
+
+Try the API immediately with our shared endpoint:
+
+```bash
+curl -X POST "https://api.runpod.ai/v2/47v2q65pn8n4wz/runsync" \
+  -H "Authorization: Bearer ${RUNPOD_API_KEY}" \
+  -H "Content-Type: application/json" \
+  -d '{
+    "input": {
+      "prompt": "How do I make a cake?",
+      "max_new_tokens": 256
+    }
+  }'
+```
+
+| Item | Value |
+|------|-------|
+| **Endpoint** | `https://api.runpod.ai/v2/47v2q65pn8n4wz/runsync` |
+| **API Key** | `${RUNPOD_API_KEY}` |
+| **Method** | POST |
+
+> ⚠️ This is a shared demo endpoint for Open Safeguard Hackathon evaluation. For production use, deploy your own instance.
+
+---
+
 ## Overview
 
 Safety classification API using [gpt-oss-safeguard-20b](https://huggingface.co/openai/gpt-oss-safeguard-20b) with **Attention Rollout** interpretability.
