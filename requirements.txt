@@ -4,6 +4,10 @@ transformers>=4.57.0
 accelerate>=0.24.0
 triton>=3.5.0
 kernels>=0.11.3
+einops
+ninja
+sentencepiece
+protobuf
 
 # API server
 fastapi>=0.104.0

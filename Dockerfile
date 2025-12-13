@@ -10,6 +10,9 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
     git \
     && rm -rf /var/lib/apt/lists/*
 
+# Upgrade torch and torchvision to compatible versions
+RUN pip install --no-cache-dir --upgrade torch torchvision
+
 # Copy requirements and install Python dependencies
 COPY requirements.txt .
 RUN pip install --no-cache-dir -r requirements.txt
