@@ -8,7 +8,7 @@
 
 ## 🚀 Public API (Hackathon Demo)
 
-Try the API immediately with our shared endpoint:
+> ℹ️ The shared demo endpoint for the Open Safeguard Hackathon has ended. The example below shows the request format.
 
 ```bash
 curl -X POST "https://api.runpod.ai/v2/47v2q65pn8n4wz/runsync" \
@@ -25,7 +25,7 @@ curl -X POST "https://api.runpod.ai/v2/47v2q65pn8n4wz/runsync" \
 | Item | Value |
 |------|-------|
 | **Endpoint** | `https://api.runpod.ai/v2/47v2q65pn8n4wz/runsync` |
-| **API Key** | `${RUNPOD_API_KEY}` |
+| **API Key** | Set your own key in `RUNPOD_API_KEY` |
 | **Method** | POST |
 
 > ⚠️ This is a shared demo endpoint for Open Safeguard Hackathon evaluation. For production use, deploy your own instance.
